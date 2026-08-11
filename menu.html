@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Menu - JR Caterings</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed-dim": "#ffb1c0",
+                        "error": "#ba1a1a",
+                        "on-secondary-container": "#775e00",
+                        "inverse-on-surface": "#f2f1eb",
+                        "primary-fixed-dim": "#d6c3ba",
+                        "on-error": "#ffffff",
+                        "on-tertiary-fixed-variant": "#851e3e",
+                        "on-primary-fixed-variant": "#51443d",
+                        "inverse-primary": "#d6c3ba",
+                        "surface-container": "#f0eee8",
+                        "tertiary": "#000000",
+                        "tertiary-fixed": "#ffd9de",
+                        "on-secondary-fixed": "#241a00",
+                        "primary": "#000000",
+                        "on-tertiary": "#ffffff",
+                        "secondary-container": "#fdd978",
+                        "on-error-container": "#93000a",
+                        "outline": "#807570",
+                        "surface-container-high": "#eae8e2",
+                        "on-tertiary-container": "#d45b79",
+                        "inverse-surface": "#30312d",
+                        "surface-dim": "#dbdad4",
+                        "on-secondary": "#ffffff",
+                        "secondary": "#745b00",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "on-background": "#1b1c19",
+                        "surface": "#fbf9f3",
+                        "primary-container": "#241914",
+                        "tertiary-container": "#3f0016",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed": "#3f0016",
+                        "surface-container-low": "#f5f3ee",
+                        "on-primary-fixed": "#241914",
+                        "on-surface-variant": "#4e4540",
+                        "surface-tint": "#6a5b54",
+                        "secondary-fixed-dim": "#e5c364",
+                        "surface-container-highest": "#e4e2dd",
+                        "on-primary-container": "#918179",
+                        "surface-bright": "#fbf9f3",
+                        "on-surface": "#1b1c19",
+                        "outline-variant": "#d1c4be",
+                        "primary-fixed": "#f3dfd5",
+                        "secondary-fixed": "#ffe08c",
+                        "background": "#fbf9f3",
+                        "surface-variant": "#e4e2dd",
+                        "on-secondary-fixed-variant": "#584400"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px",
+                        "stack-md": "32px",
+                        "stack-lg": "64px",
+                        "unit": "8px",
+                        "stack-sm": "16px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Playfair Display"],
+                        "body-md": ["DM Sans"],
+                        "headline-md": ["Playfair Display"],
+                        "title-lg": ["DM Sans"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "headline-lg": ["Playfair Display"],
+                        "body-lg": ["DM Sans"],
+                        "label-caps": ["DM Sans"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "500" }],
+                        "title-lg": ["20px", { "lineHeight": "28px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "48px", "fontWeight": "700" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "headline-lg": ["48px", { "lineHeight": "56px", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .kolam-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d6c3ba' fill-opacity='0.15'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .dotted-leader {
+            background-image: radial-gradient(circle, #807570 1px, transparent 1.5px);
+            background-position: bottom;
+            background-size: 8px 2px;
+            background-repeat: repeat-x;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen flex flex-col pt-20 kolam-pattern">
+<!-- TopNavBar -->
+<nav class="bg-surface/95 dark:bg-surface-dim/95 text-primary dark:text-primary-fixed-dim font-title-lg text-title-lg fixed top-0 w-full z-50 border-b border-outline-variant/30 backdrop-blur-md shadow-sm">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-desktop h-20">
+<a class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim" href="index.html">JR Caterings</a>
+<div class="hidden md:flex items-center gap-gutter">
+<a class="text-on-surface-variant dark:text-on-surface hover:text-secondary transition-colors hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="index.html">Home</a>
+<a class="text-on-surface-variant dark:text-on-surface hover:text-secondary transition-colors hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="about.html">About</a>
+<a class="text-on-surface-variant dark:text-on-surface hover:text-secondary transition-colors hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="services.html">Services</a>
+<a class="text-secondary dark:text-secondary-fixed border-b-2 border-secondary pb-1 font-bold hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="menu.html">Menu</a>
+<a class="text-on-surface-variant dark:text-on-surface hover:text-secondary transition-colors hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="contact.html">Contact</a>
+</div>
+<a href="contact.html" class="hidden md:block bg-primary-container text-on-primary font-title-lg text-title-lg px-6 py-2 rounded border border-transparent hover:bg-tertiary-container transition-colors shadow-[0_8px_24px_rgba(22,13,8,0.05)]">
+                Book an Event
+            </a>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg md:py-24 text-center">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim bg-primary-container px-3 py-1 rounded inline-block mb-stack-sm uppercase tracking-widest border border-secondary/30">Heritage Selection</span>
+<h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-stack-sm">Our Curated Menus</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Experience the rich culinary traditions of South India, meticulously crafted for your most cherished celebrations. Each menu is a testament to our legacy since 1960.</p>
+</section>
+<!-- Menu Grid -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pb-stack-lg">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- The Wedding Feast Card (Detailed) -->
+<div class="bg-surface-container border border-secondary/30 rounded-lg p-stack-md relative overflow-hidden group hover:shadow-[0_8px_24px_rgba(22,13,8,0.05)] transition-all duration-300">
+<div class="absolute top-0 right-0 p-4 opacity-10 text-primary">
+<span class="material-symbols-outlined text-[120px]">restaurant</span>
+</div>
+<div class="relative z-10">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary mb-unit">The Grand Kalyanam</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">A comprehensive traditional wedding feast served on a banana leaf, featuring authentic regional specialties.</p>
+<div class="space-y-4 mb-stack-md">
+<!-- Menu Item 1 -->
+<div class="flex items-end w-full">
+<div class="font-headline-md text-[20px] text-primary whitespace-nowrap">Paruppu Payasam</div>
+<div class="dotted-leader flex-grow mx-3 h-[20px]"></div>
+<div class="font-body-md text-body-md text-on-surface-variant whitespace-nowrap">Starter</div>
+</div>
+<!-- Menu Item 2 -->
+<div class="flex items-end w-full">
+<div class="font-headline-md text-[20px] text-primary whitespace-nowrap">Kalyana Rasam</div>
+<div class="dotted-leader flex-grow mx-3 h-[20px]"></div>
+<div class="font-body-md text-body-md text-on-surface-variant whitespace-nowrap">Soup</div>
+</div>
+<!-- Menu Item 3 -->
+<div class="flex items-end w-full">
+<div class="font-headline-md text-[20px] text-primary whitespace-nowrap">Avial &amp; Kootu</div>
+<div class="dotted-leader flex-grow mx-3 h-[20px]"></div>
+<div class="font-body-md text-body-md text-on-surface-variant whitespace-nowrap">Sides</div>
+</div>
+<!-- Menu Item 4 -->
+<div class="flex items-end w-full">
+<div class="font-headline-md text-[20px] text-primary whitespace-nowrap">Bisi Bele Bath</div>
+<div class="dotted-leader flex-grow mx-3 h-[20px]"></div>
+<div class="font-body-md text-body-md text-on-surface-variant whitespace-nowrap">Main</div>
+</div>
+<div class="text-center mt-4">
+<span class="font-body-md text-sm text-outline italic">+ 15 more heritage dishes</span>
+</div>
+</div>
+<button class="w-full border border-secondary text-secondary font-title-lg text-title-lg px-6 py-3 rounded hover:bg-secondary/10 transition-colors">
+                            View Full Menu
+                        </button>
+</div>
+</div>
+<!-- Engagement Menu Card -->
+<div class="bg-surface-container-low border border-outline-variant rounded-lg p-stack-md relative overflow-hidden group hover:border-secondary/50 transition-all duration-300 flex flex-col justify-between">
+<div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary mb-unit">Nischayathartham Selection</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">An elegant, refined menu perfect for intimate engagement ceremonies, balancing tradition with modern presentation.</p>
+<img class="w-full h-48 object-cover rounded mb-stack-md border border-outline-variant/30 grayscale-[20%] group-hover:grayscale-0 transition-all duration-500" data-alt="A beautiful spread of South Indian engagement catering food. High-end lifestyle photography, warm ambient lighting, brass serving vessels on dark wood, modern traditional aesthetic, rich earth tones with gold accents, soft focus background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4CToz_dR0yp1wPYu9EJKxN4j6mUxkovXklYlFpIT3kHNj4BiQ-7SS_-TnJGCti0DMkE3C4LFmFd0YRGG7BwuEoU382_IbLQZACLph6HanUMbbkKfFwxedjgi8k45CCowasmf_xweHn_EETB_3hDIedg_nMXr92Ata2_bNFwia0Pu4rw9JgY7VdW-kHKBBUmqXpSOhNkKGI1X_dxVw-sDBsLHD9oajv9gYXXG1VgZ6OZYW2iRMZ0Ugwg"/>
+</div>
+<button class="w-full border border-outline text-on-surface-variant font-title-lg text-title-lg px-6 py-3 rounded hover:border-secondary hover:text-secondary transition-colors">
+                        View Details
+                    </button>
+</div>
+<!-- Traditional Functions -->
+<div class="bg-surface-container-low border border-outline-variant rounded-lg p-stack-md hover:border-secondary/50 transition-all duration-300">
+<h2 class="font-headline-md text-headline-md text-primary mb-unit">Traditional Functions</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">Curated menus for Seemantham, Annaprasana, and Gruhapravesam.</p>
+<ul class="list-disc list-inside text-on-surface-variant font-body-md mb-stack-md space-y-2 marker:text-secondary">
+<li>Variety Rice Focus</li>
+<li>Sattvic Preparations</li>
+<li>Traditional Sweets</li>
+</ul>
+<button class="text-secondary font-title-lg hover:underline underline-offset-4 flex items-center gap-2">
+                        Explore Options <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<!-- Corporate Lunch -->
+<div class="bg-surface-container-low border border-outline-variant rounded-lg p-stack-md hover:border-secondary/50 transition-all duration-300">
+<h2 class="font-headline-md text-headline-md text-primary mb-unit">Corporate &amp; Executive</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">Sophisticated buffet and packed thali options for professional gatherings.</p>
+<ul class="list-disc list-inside text-on-surface-variant font-body-md mb-stack-md space-y-2 marker:text-secondary">
+<li>Executive Thali</li>
+<li>Pan-Indian Options</li>
+<li>Premium Packaging</li>
+</ul>
+<button class="text-secondary font-title-lg hover:underline underline-offset-4 flex items-center gap-2">
+                        Explore Options <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="bg-primary-container text-on-primary py-stack-lg border-y border-secondary/20">
+<div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop text-center">
+<h2 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg mb-stack-sm text-secondary-fixed">Build Your Own Menu</h2>
+<p class="font-body-lg text-body-lg text-on-primary-container mb-stack-md">Have specific dietary requirements or regional preferences? Our expert culinary team will work with you to craft a bespoke menu tailored exactly to your vision.</p>
+<button class="bg-secondary text-on-secondary-fixed font-title-lg text-title-lg px-8 py-4 rounded hover:bg-secondary-fixed transition-colors shadow-[0_8px_24px_rgba(22,13,8,0.1)]">
+                    Consult Our Chefs
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary-container dark:bg-tertiary-container text-on-primary-container dark:text-tertiary-fixed-dim font-body-md text-body-md w-full flat no shadows">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter max-w-container-max mx-auto px-margin-desktop py-stack-lg">
+<!-- Brand -->
+<div class="col-span-1 md:col-span-2">
+<h3 class="font-headline-lg text-headline-lg text-on-primary dark:text-tertiary-fixed mb-4">JR Caterings</h3>
+<p class="text-on-primary-container/80 max-w-sm mb-6">
+                    © 1960-2024 JR Caterings. Excellence in Heritage South Indian Service.
+                </p>
+</div>
+<!-- Links -->
+<div class="col-span-1 flex flex-col gap-3">
+<a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="about.html">Our Story</a>
+<a class="text-secondary-fixed font-bold hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="menu.html">Heritage Menu</a>
+<a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="services.html">Event Planning</a>
+</div>
+<div class="col-span-1 flex flex-col gap-3">
+<a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="contact.html">Contact Us</a>
+<a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="#">Privacy Policy</a>
+<a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</body></html>

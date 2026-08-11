@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact &amp; Booking - JR Caterings</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                            "tertiary-fixed-dim": "#ffb1c0",
+                            "error": "#ba1a1a",
+                            "on-secondary-container": "#775e00",
+                            "inverse-on-surface": "#f2f1eb",
+                            "primary-fixed-dim": "#d6c3ba",
+                            "on-error": "#ffffff",
+                            "on-tertiary-fixed-variant": "#851e3e",
+                            "on-primary-fixed-variant": "#51443d",
+                            "inverse-primary": "#d6c3ba",
+                            "surface-container": "#f0eee8",
+                            "tertiary": "#000000",
+                            "tertiary-fixed": "#ffd9de",
+                            "on-secondary-fixed": "#241a00",
+                            "primary": "#000000",
+                            "on-tertiary": "#ffffff",
+                            "secondary-container": "#fdd978",
+                            "on-error-container": "#93000a",
+                            "outline": "#807570",
+                            "surface-container-high": "#eae8e2",
+                            "on-tertiary-container": "#d45b79",
+                            "inverse-surface": "#30312d",
+                            "surface-dim": "#dbdad4",
+                            "on-secondary": "#ffffff",
+                            "secondary": "#745b00",
+                            "error-container": "#ffdad6",
+                            "surface-container-lowest": "#ffffff",
+                            "on-background": "#1b1c19",
+                            "surface": "#fbf9f3",
+                            "primary-container": "#241914",
+                            "tertiary-container": "#3f0016",
+                            "on-primary": "#ffffff",
+                            "on-tertiary-fixed": "#3f0016",
+                            "surface-container-low": "#f5f3ee",
+                            "on-primary-fixed": "#241914",
+                            "on-surface-variant": "#4e4540",
+                            "surface-tint": "#6a5b54",
+                            "secondary-fixed-dim": "#e5c364",
+                            "surface-container-highest": "#e4e2dd",
+                            "on-primary-container": "#918179",
+                            "surface-bright": "#fbf9f3",
+                            "on-surface": "#1b1c19",
+                            "outline-variant": "#d1c4be",
+                            "primary-fixed": "#f3dfd5",
+                            "secondary-fixed": "#ffe08c",
+                            "background": "#fbf9f3",
+                            "surface-variant": "#e4e2dd",
+                            "on-secondary-fixed-variant": "#584400"
+                    },
+                    "borderRadius": {
+                            "DEFAULT": "0.125rem",
+                            "lg": "0.25rem",
+                            "xl": "0.5rem",
+                            "full": "0.75rem"
+                    },
+                    "spacing": {
+                            "gutter": "24px",
+                            "margin-desktop": "64px",
+                            "margin-mobile": "20px",
+                            "stack-md": "32px",
+                            "stack-lg": "64px",
+                            "unit": "8px",
+                            "stack-sm": "16px",
+                            "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                            "display-lg": [
+                                    "Playfair Display"
+                            ],
+                            "body-md": [
+                                    "DM Sans"
+                            ],
+                            "headline-md": [
+                                    "Playfair Display"
+                            ],
+                            "title-lg": [
+                                    "DM Sans"
+                            ],
+                            "display-lg-mobile": [
+                                    "Playfair Display"
+                            ],
+                            "headline-lg-mobile": [
+                                    "Playfair Display"
+                            ],
+                            "headline-lg": [
+                                    "Playfair Display"
+                            ],
+                            "body-lg": [
+                                    "DM Sans"
+                            ],
+                            "label-caps": [
+                                    "DM Sans"
+                            ]
+                    },
+                    "fontSize": {
+                            "display-lg": [
+                                    "64px",
+                                    {
+                                            "lineHeight": "72px",
+                                            "letterSpacing": "-0.02em",
+                                            "fontWeight": "700"
+                                    }
+                            ],
+                            "body-md": [
+                                    "16px",
+                                    {
+                                            "lineHeight": "24px",
+                                            "fontWeight": "400"
+                                    }
+                            ],
+                            "headline-md": [
+                                    "32px",
+                                    {
+                                            "lineHeight": "40px",
+                                            "fontWeight": "500"
+                                    }
+                            ],
+                            "title-lg": [
+                                    "20px",
+                                    {
+                                            "lineHeight": "28px",
+                                            "letterSpacing": "0.02em",
+                                            "fontWeight": "600"
+                                    }
+                            ],
+                            "display-lg-mobile": [
+                                    "40px",
+                                    {
+                                            "lineHeight": "48px",
+                                            "fontWeight": "700"
+                                    }
+                            ],
+                            "headline-lg-mobile": [
+                                    "32px",
+                                    {
+                                            "lineHeight": "40px",
+                                            "fontWeight": "600"
+                                    }
+                            ],
+                            "headline-lg": [
+                                    "48px",
+                                    {
+                                            "lineHeight": "56px",
+                                            "fontWeight": "600"
+                                    }
+                            ],
+                            "body-lg": [
+                                    "18px",
+                                    {
+                                            "lineHeight": "28px",
+                                            "fontWeight": "400"
+                                    }
+                            ],
+                            "label-caps": [
+                                    "12px",
+                                    {
+                                            "lineHeight": "16px",
+                                            "letterSpacing": "0.1em",
+                                            "fontWeight": "700"
+                                    }
+                            ]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .bg-kolam {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D9B85A' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased pt-20">
+<!-- TopNavBar (Shared Component) -->
+<nav class="fixed top-0 w-full z-50 bg-surface/95 dark:bg-surface-dim/95 border-b border-outline-variant/30 backdrop-blur-md shadow-sm">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-desktop h-20">
+<a class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim" href="index.html">JR Caterings</a>
+<div class="hidden md:flex gap-8 items-center font-title-lg text-title-lg">
+<a class="text-on-surface-variant dark:text-on-surface hover:text-secondary transition-colors hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="index.html">Home</a>
+<a class="text-on-surface-variant dark:text-on-surface hover:text-secondary transition-colors hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="about.html">About</a>
+<a class="text-on-surface-variant dark:text-on-surface hover:text-secondary transition-colors hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="services.html">Services</a>
+<a class="text-on-surface-variant dark:text-on-surface hover:text-secondary transition-colors hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="menu.html">Menu</a>
+<a class="text-secondary dark:text-secondary-fixed border-b-2 border-secondary pb-1 font-bold hover:text-secondary dark:hover:text-secondary-fixed transition-all duration-300" href="contact.html">Contact</a>
+</div>
+<a href="contact.html" class="hidden md:flex bg-primary-container text-on-primary font-title-lg text-title-lg px-6 py-2 rounded border border-outline/30 hover:bg-primary-container/90 transition-colors Active: opacity-80 scale-95 transition-transform">
+                Book an Event
+            </a>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="max-w-container-max mx-auto px-margin-desktop py-stack-lg bg-kolam">
+<!-- Header Section -->
+<div class="text-center mb-stack-lg">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-unit">Book an Event</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Let us bring the rich heritage of South Indian cuisine to your next gathering. Fill out the form below or contact us directly.</p>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Booking Form (Spans 7 cols on LG) -->
+<div class="lg:col-span-7 bg-primary-container text-on-primary p-margin-desktop rounded-lg shadow-xl relative overflow-hidden">
+<!-- Subtle Decorative Accent -->
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary opacity-10 rounded-bl-full pointer-events-none"></div>
+<h2 class="font-headline-md text-headline-md mb-stack-md text-inverse-primary border-b border-outline-variant/20 pb-4">Event Details</h2>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Name -->
+<div>
+<label class="block font-label-caps text-label-caps text-inverse-primary mb-2">Full Name</label>
+<input class="w-full bg-transparent border-b border-outline-variant/30 text-on-primary py-2 px-0 focus:ring-0 focus:border-secondary transition-colors font-body-md text-body-md placeholder:text-on-primary-container/50" placeholder="Your Name" type="text"/>
+</div>
+<!-- Phone -->
+<div>
+<label class="block font-label-caps text-label-caps text-inverse-primary mb-2">Phone Number</label>
+<input class="w-full bg-transparent border-b border-outline-variant/30 text-on-primary py-2 px-0 focus:ring-0 focus:border-secondary transition-colors font-body-md text-body-md placeholder:text-on-primary-container/50" placeholder="+91 00000 00000" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Event Type -->
+<div>
+<label class="block font-label-caps text-label-caps text-inverse-primary mb-2">Event Type</label>
+<select class="w-full bg-transparent border-b border-outline-variant/30 text-on-primary py-2 px-0 focus:ring-0 focus:border-secondary transition-colors font-body-md text-body-md appearance-none">
+<option class="text-primary-container bg-surface">Wedding</option>
+<option class="text-primary-container bg-surface">Corporate Event</option>
+<option class="text-primary-container bg-surface">Family Gathering</option>
+<option class="text-primary-container bg-surface">Other</option>
+</select>
+</div>
+<!-- Date -->
+<div>
+<label class="block font-label-caps text-label-caps text-inverse-primary mb-2">Event Date</label>
+<input class="w-full bg-transparent border-b border-outline-variant/30 text-on-primary py-2 px-0 focus:ring-0 focus:border-secondary transition-colors font-body-md text-body-md" type="date"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Location -->
+<div>
+<label class="block font-label-caps text-label-caps text-inverse-primary mb-2">Venue / Location</label>
+<input class="w-full bg-transparent border-b border-outline-variant/30 text-on-primary py-2 px-0 focus:ring-0 focus:border-secondary transition-colors font-body-md text-body-md placeholder:text-on-primary-container/50" placeholder="City or Venue Name" type="text"/>
+</div>
+<!-- Guest Count -->
+<div>
+<label class="block font-label-caps text-label-caps text-inverse-primary mb-2">Estimated Guests</label>
+<input class="w-full bg-transparent border-b border-outline-variant/30 text-on-primary py-2 px-0 focus:ring-0 focus:border-secondary transition-colors font-body-md text-body-md placeholder:text-on-primary-container/50" placeholder="e.g. 500" type="number"/>
+</div>
+</div>
+<!-- Message -->
+<div>
+<label class="block font-label-caps text-label-caps text-inverse-primary mb-2">Special Requirements / Message</label>
+<textarea class="w-full bg-transparent border-b border-outline-variant/30 text-on-primary py-2 px-0 focus:ring-0 focus:border-secondary transition-colors font-body-md text-body-md placeholder:text-on-primary-container/50 resize-none" placeholder="Tell us more about your event..." rows="4"></textarea>
+</div>
+<button class="bg-secondary text-primary font-title-lg text-title-lg px-8 py-4 rounded hover:bg-secondary/90 transition-colors w-full mt-4" type="submit">
+                        Submit Request
+                    </button>
+</form>
+</div>
+<!-- Contact Info & Map (Spans 5 cols on LG) -->
+<div class="lg:col-span-5 flex flex-col gap-gutter">
+<!-- Contact Details Card -->
+<div class="bg-surface-container border border-outline-variant/50 p-stack-md rounded-lg h-full">
+<h3 class="font-headline-md text-headline-md text-primary mb-stack-sm">Get in Touch</h3>
+<ul class="space-y-6 font-body-md text-body-md text-on-surface-variant">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<div>
+<p class="font-bold text-primary">Head Office</p>
+<p>123 Heritage Lane, Mylapore,<br/>Chennai, Tamil Nadu 600004</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">call</span>
+<div>
+<p class="font-bold text-primary">Phone</p>
+<p>+91 98765 43210</p>
+<p>+91 44 2464 0000</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">mail</span>
+<div>
+<p class="font-bold text-primary">Email</p>
+<p>events@jrcaterings.com</p>
+</div>
+</li>
+</ul>
+<!-- WhatsApp CTA -->
+<a class="mt-stack-md flex items-center justify-center gap-2 border border-secondary text-secondary font-title-lg text-title-lg px-6 py-3 rounded hover:bg-secondary hover:text-primary transition-all duration-300" href="#">
+<span class="material-symbols-outlined">chat</span>
+                        Talk to us on WhatsApp
+                    </a>
+</div>
+<!-- Map Placeholder -->
+<div class="bg-surface-container border border-outline-variant/50 rounded-lg overflow-hidden h-64 relative group">
+<img class="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500" data-alt="A highly detailed overhead map view of Mylapore, Chennai, showing major roads and landmarks in a clean, modern style with a warm, subtle sepia tint to match a luxury heritage catering brand aesthetic." data-location="Chennai" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYf4rfzF9BLqnOXO06_JSv3nIesVC7CDYNSeGUtTXK4AcrC1HnSGu2lA-e2gZeFCvIeh6BussyI1WO7d1FyVWQ9_6habs8w03kIMszRrMgdQ8ZUg4Dua8raY8IhWSHGr9QFEZMkXyJ7iZvQsliC9sXCZaXkQV-TllHt1T8GXYwefRv9Z_HNqw7xAv2gmacm-i1p3i8aX5yekvrPDbxj-GDrvka2S_OFRCU_J8kW5lN8Xw1XN_P-bgtHQ"/>
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<div class="bg-surface/90 px-4 py-2 rounded shadow-sm backdrop-blur border border-outline-variant/30 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">map</span>
+<span class="font-label-caps text-label-caps text-primary">View on Google Maps</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer (Shared Component) -->
+<footer class="w-full bg-primary-container dark:bg-tertiary-container mt-stack-lg flat no shadows">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter max-w-container-max mx-auto px-margin-desktop py-stack-lg">
+<div class="col-span-1 md:col-span-2">
+<p class="font-headline-lg text-headline-lg text-on-primary dark:text-tertiary-fixed mb-4">JR Caterings</p>
+<p class="font-body-md text-body-md text-on-primary-container dark:text-tertiary-fixed-dim max-w-sm">
+                    © 1960-2024 JR Caterings. Excellence in Heritage South Indian Service.
+                </p>
+</div>
+<div class="col-span-1">
+<ul class="font-body-md text-body-md space-y-2">
+<li><a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="about.html">Our Story</a></li>
+<li><a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="menu.html">Heritage Menu</a></li>
+<li><a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="services.html">Event Planning</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<ul class="font-body-md text-body-md space-y-2">
+<li><a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="contact.html">Contact Us</a></li>
+<li><a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="#">Privacy Policy</a></li>
+<li><a class="text-on-primary-container/80 hover:text-secondary-fixed transition-colors underline-offset-4 hover:underline Transition-all duration-200 ease-in-out" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+</footer>
+</body></html>
